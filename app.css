@@ -1,0 +1,10 @@
+h1 
+{
+	color: purple;
+}
+
+body
+{
+	background-color: grey;
+	color: red; //everything is color unless explicitly told otherwise
+}
