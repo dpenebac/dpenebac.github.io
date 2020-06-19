@@ -7,8 +7,26 @@
 	</head>
 
 	<body>
-		<section id = "tContents">
-			
+		<div class = "tContents">
+			<div class = "content">
+				<button>
+					<a href = "index.html#myProjects">My Projects</a>
+				</button>
+			</div>
+		</div>
+
+		<section class = "slideShow" id="slideshow" data-component="slideshow">
+			<section role="list">
+			  <div class="slide">
+				<img src= "images/b2.jpg" alt="">
+			  </div>
+			  <div class="slide">
+				<img src= "images/hh.jpg" alt="">
+			  </div>
+			  <div class="slide">
+				<img src="images/bLogo.png" alt="">
+			  </section>
+			</div>
 		</section>
 
 		<section class = "aboutme"> 
@@ -19,15 +37,19 @@
 		</section>
 
 		<section>
-			<h1>My Projects</h1>
+			<h1>
+				<a name = "myProjects">My Projects</a>
+			</h1>
 			<div class = "project">
 				<p>Python Holochess Game</p>
-				<img src = "images/bLogo.png">
+				<img class = "pImage" src = "images/bLogo.png">
 			</div>
 
 			<div class = "project">
 				<p>Basketball Tracker</p>
+				<img class = "pImage" src = "images/hh.jpg">
 			</div>
+			
 		</section>
 
 	</body>
