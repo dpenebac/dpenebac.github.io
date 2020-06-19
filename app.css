@@ -1,3 +1,7 @@
+html {
+    scroll-behavior : smooth;
+}
+
 h1 {
 	text-align : center;
 	color : purple;
@@ -5,12 +9,11 @@ h1 {
 
 body {
 	background-color : lightgray;
-	color : green;
+	color : black;
 }
 
 p {
-	text-align : center;
-	color : blue;
+    text-align : left;
 }
 
 .project {
@@ -18,7 +21,7 @@ p {
     float : left;
     height : 600px;
     background : gray;
-    margin : 40px;
+    margin : 10px;
 }
 
 .aboutme {
@@ -45,6 +48,9 @@ img {
 }
 
 .slide {
+    margin-left : auto;
+    margin-right : auto;
+    width : 50%;
     height : 500px;
 }
 
