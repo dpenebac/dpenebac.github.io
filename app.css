@@ -4,11 +4,11 @@ html {
 
 h1 {
 	text-align : center;
-	color : white;
+	color : black;
 }
 
 body {
-	background-color : lightgray;
+	background-color : white;
 	color : black;
 }
 
@@ -21,11 +21,9 @@ button {
 }
 
 .project {
-    width : 300px;
-    float : left;
-    height : 600px;
-    background : gray;
-    margin : 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .aboutme {
@@ -42,8 +40,11 @@ section {
 }
 
 .pImage {
-    width : 100%;
-    height : 200px;
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
