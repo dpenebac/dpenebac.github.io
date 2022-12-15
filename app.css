@@ -24,7 +24,7 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid #333;
+    border: 3px solid #333;
 }
 
 .aboutme {
@@ -41,8 +41,8 @@ section {
 }
 
 .pImage {
-    width: 25%;
-    height: 25%;
+    width: 200px;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
