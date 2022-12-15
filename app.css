@@ -24,6 +24,7 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid #333;
 }
 
 .aboutme {
@@ -73,4 +74,27 @@ img {
 
 .contactInfo {
     text-align : center;
+}
+
+.lab {
+    margin: 20px 20px 0 0;  
+    overflow: auto
+}
+
+.lab_pic {
+    float : left;
+}
+
+.lab_pic img {
+    height: 100px;
+    width: 100px;
+}
+
+.lab_content {
+    margin-left : 500 px;
+}
+
+.lab_title {
+    font-weight: bold;
+    font-size: 200%;
 }
